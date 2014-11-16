@@ -1,0 +1,23 @@
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+cj-grid{
+      height:200px;
+      border:1px solid black;
+      margin:4px;
+      width: 100%;
+    }
+cj-grid, cj-grid.third{
+  display: inline-block;
+}

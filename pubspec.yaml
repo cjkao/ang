@@ -1,0 +1,12 @@
+name: ang
+description: A sample web application
+dependencies:
+  browser: any
+  angular: any
+  di: any
+  slickdart:
+     path: /Users/peter/Documents/github/slickdart
+  web_components: any
+transformers:
+- angular
+- di
