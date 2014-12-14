@@ -1,0 +1,57 @@
+div.card {
+  width: 200px;
+  display: block;
+}
+div.card:hover{
+  background-color: yellow;
+}
+
+div.dropzone{
+  width:100px;
+  height:200px;
+  background-color: #fffff1;
+}
+
+.container {
+  max-width: 400px;
+  padding: 15px 15px 0 15px;
+}
+
+.sortable {
+  margin-top: 15px;
+  width: 240px;
+  height: 120px;
+  background: #cddc39;
+  border-radius: 8px;
+  cursor: url(package:dnd/cursor/openhand.cur), move; /* Cursor for IE. */
+  cursor: url(package:dnd/cursor/openhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
+  box-sizing: border-box;
+}
+
+.sortable p {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.dnd-dragging {
+  opacity: 0.5;
+}
+
+.dnd-dragging, .dnd-drag-occurring {
+  cursor: url(package:dnd/cursor/closedhand.cur), move; /* Cursor for IE. */
+  cursor: url(package:dnd/cursor/closedhand.cur) 7 5, move; /* Cursor for FF and Chrome (setting midpoint). */
+}
+
+.dnd-over {
+  border-width: medium;
+  border-color: #ff5722;
+  border-style: dashed;
+  background-color: white;
+  opacity: 1;
+}
+
+.dnd-over * {
+  display: none;
+}

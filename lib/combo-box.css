@@ -1,0 +1,19 @@
+ul.dropdown-menu{
+  height: 300px;
+  overflow-y: scroll;
+}
+
+typeahead-popup > ul{
+height:200px;
+overflow:scroll;
+}
+
+input:required:invalid {
+  border:solid 1px red;
+  /* insert your own styles for valid form input */
+}
+
+ng-hide,
+.ng-show {
+  display: none !important;
+}

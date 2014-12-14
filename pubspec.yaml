@@ -7,6 +7,8 @@ dependencies:
   slickdart:
      path: /Users/peter/Documents/github/slickdart
   web_components: any
+  dnd: any
+  angular_ui: '0.6.2'
 transformers:
 - angular
 - di
